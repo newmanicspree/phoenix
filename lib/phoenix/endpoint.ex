@@ -190,7 +190,7 @@ defmodule Phoenix.Endpoint do
       file patterns to watch. When these files change, it will trigger a reload.
 
           live_reload: [
-            url: "ws://localhost:4000",
+            url: "ws://localhost:4000/live",
             patterns: [
               ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
               ~r"lib/app_web/(live|views)/.*(ex)$",
